@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<!--BY MATHEUS REBOUCAS-->
+
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>FORMULARIO</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+
+    <header>
+    </header>
+    
+    <nav>
+    </nav>
+    
+    <body>
+        <div class="abc">
+            <h2>FORMULARIO DE INSCRIÇÃO</h2>
+        </div>
+        
+            <form>
+                <div class="box">
+                    <div class="fomulario">
+                        <div class="field">
+                            <h3>Nome:</h3>
+                            <input style="margin-top:10px;height:45px;width:300px;font-size:14pt;border-radius:30px;text-align: center;" type="name" id="name" name="Nome" placeholder="Digite seu nome"/>
+                        </div>
+
+                        <div class="field">
+                            <h3>Data de nascimento:</h3>
+                            <input style="margin-top:10px;height:45px;width:300px;font-size:14pt;border-radius:30px;" type="date" name="Data de nascimento" />
+                        </div>
+
+                        <div class="field">
+                            <h3>Nome de usuario:</h3>
+                            <input style="margin-top:10px;height:45px;width:300px;font-size:14pt;border-radius:30px;text-align: center;" type="text"  name="Nome de usuario" placeholder="Nome de usuario" />
+                        </div>
+
+                        <div class="field">
+                            <h3>E-mail:</h3>
+                            <input style="margin-top:10px;height:45px;width:300px;font-size:14pt;border-radius:30px;text-align: center;" type="email" name="E-mail" placeholder="Digite seu E-mail" />
+                        </div>
+
+                        <div class="field">
+                            <h3>Senha:</h3>
+                            <input style="margin-top:10px;height:45px;width:300px;font-size:14pt;border-radius:30px;text-align: center;" type="password" name="Senha" placeholder="Digite sua senha" />
+                        </div>
+                    
+                        <div class="field">
+                            <input type="radio" name="aceite" size="40"/>ACEITE OS TERMOS DE SERVIÇO
+                        </div>
+                    
+                        <div class="field">
+                            <button style="width:115px;height:50px;border-radius:20px;"type="button" onclick="Evento()"><p>Inscreva-se</p></button>
+                            <script>
+                                function Evento(){
+                                    alert('Usuario inscrito com sucesso')
+                                }
+                            </script>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </form>
+    </body>
+
+    <footer>
+    </footer>
+
+
+</html>
